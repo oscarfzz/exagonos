@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skew {
+    display: none;
+}
+
+.skewed-top-right .skew-top.mr-for-radius {
+    display: block;
+}
+
+.skewed-top-left .skew-top.ml-for-radius {
+    display: block;
+}
+
+.skewed-bottom-right .skew-bottom.mr-for-radius {
+    display: block;
+}
+
