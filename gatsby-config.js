@@ -45,6 +45,15 @@ module.exports = {
       options: {
         lang: 'es'
       }
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        https: true,
+        www: false,
+        SymLinksIfOwnerMatch: true,
+        host: 'exagonosparla.es', // if 'www' is set to 'false', be sure to also remove it here!
+      },
+    },
   ],
 }

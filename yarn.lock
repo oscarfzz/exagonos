@@ -6519,6 +6519,14 @@ gatsby-plugin-google-analytics@^3.7.1:
     "@babel/runtime" "^7.14.0"
     minimatch "3.0.4"
 
+gatsby-plugin-htaccess@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-htaccess/-/gatsby-plugin-htaccess-1.4.0.tgz#e7629cfca0e6cf12e714c6ad29162a12b0c60e89"
+  integrity sha512-CaUQ3SPkV8khTk2MvY58KJAGAQFLxrlSb9ysxB+BeOgdruI2F0hWsQQI5/A94VtZsdB/5CbJcZVNmCyDJ+SJqg==
+  dependencies:
+    fs-extra "^8.1.0"
+    lodash "^4.17.15"
+
 gatsby-plugin-html-attributes@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-html-attributes/-/gatsby-plugin-html-attributes-1.0.5.tgz#811613bdeff119aa4fa61ed33b5147d52d5a7017"
