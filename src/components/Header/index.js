@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <nav className="relative px-6 py-6 flex justify-between items-center bg-gray-50">
       <a className="text-3xl font-bold leading-none" href="#">
-        <StaticImage className="ml-12 h-12" src="../../../static/images/exagonos-log.png" layout="fixed" />
+        <StaticImage className="lg:ml-12 h-12" src="../../../static/images/exagonos-log.png" layout="fixed" />
       </a>
       <div className="lg:hidden">
-        <button className="navbar-burger flex items-center text-gray-400 p-3">
+        <button className="hidden navbar-burger flex items-center text-gray-400 p-3">
           <svg className="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <title>Mobile menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
