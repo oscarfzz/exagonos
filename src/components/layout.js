@@ -11,6 +11,7 @@ const Layout = ({ location, title, children }) => {
         <Header/>
         <main>{children}</main>
         <Footer />
+        <SocialNav/>
       </div>
   )
 }

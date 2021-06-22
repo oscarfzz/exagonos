@@ -1,12 +1,11 @@
 module.exports = {
-  pathPrefix: "/leonids",
   siteMetadata: {
     title: `Leonids`,
     author: {
       name: `@ry_zou`,
       summary: `web dev`,
     },
-    description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
+    description: `Conoce Exagonos uno de los ✅ mejores Restaurantes en Parla ✅ Llevamos más de 50 años ofreciendo calidad a nuestros clientes.`,
     siteUrl: `https://renyuanz.github.io/leonids`,
     social: {
       twitter: `ry_zou`,
@@ -34,5 +33,18 @@ module.exports = {
     `gatsby-transformer-sharp`, // Needed for dynamic images
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://exagonosparla.es`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'es'
+      }
+    }
   ],
 }

@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/oscarfdz/exagonosparla.es/
+    - /bin/cp -R public/* $DEPLOYPATH

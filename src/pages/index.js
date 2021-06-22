@@ -3,12 +3,15 @@ import Layout from '../components/layout.js'
 import { StaticImage } from "gatsby-plugin-image"
 
 import Gradient from '../components/Gradient'
-
+import SEO from '../components/seo.js'
 
 const Home = () => {
   return (
-
 <Layout location={'home'}>
+  <SEO
+    title={'▷ Restaurante Exagonos en Parla - 2021'}
+    metaDescription={'Conoce Exagonos uno de los ✅ mejores Restaurantes en Parla ✅ Llevamos más de 50 años ofreciendo calidad a nuestros clientes.'}
+  />
   <div className="relative bg-gray-50 pt-12 lg:pt-20 pb-12 md:pb-24">
     <div className="container mx-auto px-4">
       <div className="flex flex-wrap -mx-4">
@@ -151,7 +154,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </div>
+    </div>
   <Gradient/>
 </Layout>
   )

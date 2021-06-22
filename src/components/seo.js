@@ -35,7 +35,6 @@ const SEO = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
@@ -60,6 +59,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           name: `twitter:creator`,
           content: site.siteMetadata.social.twitter,
+        },
+        {
+          name: `robots`,
+          content: 'INDEX, FOLLOW',
         },
         {
           name: `twitter:title`,
